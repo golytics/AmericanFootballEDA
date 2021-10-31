@@ -39,7 +39,7 @@ def get_img_with_href(local_img_path, target_url):
 
 # preparing the layout for the top section of the app
 # dividing the layout vertically (dividing the first row)
-row1_1, row1_2, row1_3 = st.columns((1, 4, 5))
+row1_1, row1_2, row1_3 = st.columns((1, 5, 4))
 
 # first row first column
 with row1_1:
