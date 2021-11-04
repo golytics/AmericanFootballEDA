@@ -169,7 +169,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p>Developed By: <a href="https://golytics.github.io/" target="_blank">Dr. Mohamed Gabr</a></p>
+<p>Published By: <a href="https://golytics.github.io/" target="_blank">Dr. Mohamed Gabr</a></p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
