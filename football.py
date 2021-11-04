@@ -13,7 +13,7 @@ streamlit_analytics.start_tracking()
 
 
 # configuring the page and the logo
-st.set_page_config(page_title='Mohamed Gabr - The Smart City', page_icon ='logo.png', layout = 'wide', initial_sidebar_state = 'auto')
+st.set_page_config(page_title='Mohamed Gabr - House Price Prediction', page_icon ='logo.png', layout = 'wide', initial_sidebar_state = 'auto')
 
 
 import os
@@ -145,34 +145,34 @@ with open("style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
-#footer="""<style>
-#a:link , a:visited{
-#color: blue;
-#background-color: transparent;
-#text-decoration: underline;
-#}
+footer="""<style>
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+}
 
-#a:hover,  a:active {
-#color: red;
-#background-color: transparent;
-#text-decoration: underline;
-#}
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
 
-#.footer {
-#position: fixed;
-#left: 0;
-#bottom: 0;
-#width: 100%;
-#background-color: white;
-#color: black;
-#text-align: center;
-#}
-#</style>
-#<div class="footer">
-#<p>&copy; <a href="https://golytics.github.io/" target="_blank">GoLytics</a><br>Developed By: <a href="https://golytics.github.io/" target="_blank">Dr. Mohamed Gabr</a></p>
-#</div>
-#"""
-#st.markdown(footer,unsafe_allow_html=True)
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>Developed By: <a href="https://golytics.github.io/" target="_blank">Dr. Mohamed Gabr</a></p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
 
 
 
